@@ -5,10 +5,10 @@
 
 ---
 
-## 📌 Project Description
+## Project Description
 CyberLogger is a Python-based application designed to demonstrate the mechanics of keystroke logging and data obfuscation. It features a modern, dark-themed GUI built with `customtkinter` that allows users to easily Start/Stop logging and toggle encryption for anonymity.
 
-## 🚀 Key Features
+## Key Features
 * **Modern GUI:** User-friendly control panel with visual status indicators.
 * **Clean Logging:** Automatically handles Backspace editing and ignores modifier keys (Shift, Ctrl, Alt) for readable output.
 * **Dual Output:** Saves logs to both `keylog.txt` (readable) and `keylog.py` (script format).
@@ -17,7 +17,7 @@ CyberLogger is a Python-based application designed to demonstrate the mechanics 
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Step A: Install Requirements
 Open your terminal or command prompt in this directory and run:
@@ -37,12 +37,12 @@ python gui_app.py
 
 ---
 
-## 📂 File Structure
+## File Structure
 * **gui_app.py:** The main entry point containing the Graphical User Interface code.
 * **keylogger_backend.py:** The core logic for capturing keystrokes and handling file I/O.
 * **logs/:** The directory where `keylog.txt` and `keylog.py` are saved.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 This tool is developed for educational purposes only. It is intended to demonstrate how input monitoring works for cybersecurity research and defense analysis. Unauthorized use of keyloggers on computers you do not own or have permission to monitor is illegal.
